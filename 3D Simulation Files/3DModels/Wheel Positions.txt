@@ -1,0 +1,35 @@
+chasis
+-x:0
+-y:0
+-z:0
+-roll:0
+-pitch:180
+-yaw:90
+FR
+-x: 2.1
+-y: 1.10
+-z: .50
+-roll:0
+-pitch:180
+-yaw:270
+FL
+-x: 2.1
+-y:-1.10
+-z:.50
+-roll:0
+-pitch:180
+-yaw:90
+BR
+-x:-1.60
+-y:1.10
+-z:.50
+-roll:0
+-pitch:180
+-yaw:270
+BL
+-x:-1.60
+-y:-1.10
+-z:.50
+-roll:0
+-pitch:180
+-yaw:90
