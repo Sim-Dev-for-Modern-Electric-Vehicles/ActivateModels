@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model name="lat_dyn_v1_wAnimation">
+<model name="Lateral Simulation v1">
   <header formatversion="2" hwxversion="2021.2" script="oml"/>
   <edition>
     <properties>
       <property name="creator" value="Acrome"/>
       <property name="creationdate" value="07/01/21 09:54:27"/>
       <property name="revision" value="0"/>
-      <property name="lastmodifieddate" value="11/25/21 10:25:01"/>
+      <property name="lastmodifieddate" value="05/23/22 12:25:14"/>
       <property name="comments" value=""/>
     </properties>
   </edition>
@@ -1041,7 +1041,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -1800,7 +1800,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -1862,7 +1862,7 @@
                   </properties>
                   <graphics>
                     <location position="left"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="64,64,64,255" thickness="1.5"/>
                     <background color="64,64,64,255"/>
                   </graphics>
@@ -1875,7 +1875,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -2612,7 +2612,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -5525,7 +5525,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -5587,7 +5587,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -9421,7 +9421,7 @@
             </section>
           </parameters>
         </block>
-        <block name="ContStateSpace" type="block">
+        <block name="Veh. State-Space Model" type="block">
           <template name="system/Dynamical/ContStateSpace"/>
           <properties>
             <property name="inlinable" value="0"/>
@@ -9429,7 +9429,7 @@
             <property name="atomic" value="0"/>
           </properties>
           <graphics>
-            <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
+            <label position="bottom" visible="1" font="Arial,11" color="255,255,255,255"/>
             <frame shape="rectangle" visible="1" color="0,0,0,255" thickness="1.5"/>
             <background color="255,255,255,255"/>
             <position x="327.8633593216499" y="-79.91917325666516"/>
@@ -9503,7 +9503,7 @@
             <label position="bottom" visible="1" font="Arial,11" color="255,255,255,255"/>
             <frame shape="rectangle" visible="0" color="0,0,0,255" thickness="1.5"/>
             <background color="255,255,255,0"/>
-            <position x="-17.1884765625" y="55.95428466796875"/>
+            <position x="515.8298645019531" y="-488.8181610107422"/>
             <size width="576" height="144"/>
             <rotate angle="0"/>
             <texts>
@@ -9527,153 +9527,28 @@
           </parameters>
         </block>
         <block name="Steering Angle" type="block">
-          <diagram>
-            <block name="Constant" type="block">
-              <template name="system/SignalGenerators/Constant"/>
-              <properties>
-                <property name="inlinable" value="0"/>
-                <property name="masked" value="1"/>
-                <property name="atomic" value="0"/>
-              </properties>
-              <graphics>
-                <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
-                <frame shape="rectangle" visible="1" color="0,0,0,255" thickness="1.5"/>
-                <background color="255,255,255,255"/>
-                <position x="201.86300659179688" y="-63.929290771484375"/>
-                <size width="40" height="40"/>
-                <rotate angle="0"/>
-                <texts>
-                  <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center">delSt</text>
-                </texts>
-                <images>
-                  <image name="image1" file="" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
-                </images>
-                <flip value="0">
-                  <images>
-                    <image name="image2" file="" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
-                  </images>
-                </flip>
-              </graphics>
-              <ports>
-                <port name="" type="fixedport">
-                  <properties>
-                    <property name="iotype" value="out"/>
-                    <property name="datatype" value="Explicit"/>
-                    <property name="portnumber" value="1"/>
-                  </properties>
-                  <graphics>
-                    <location position="right"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
-                    <frame shape="triangle" visible="1" color="64,64,64,255" thickness="1.5"/>
-                    <background color="64,64,64,255"/>
-                  </graphics>
-                </port>
-                <port name="" type="variableport">
-                  <properties>
-                    <property name="iotype" value="in"/>
-                    <property name="datatype" value="Activation"/>
-                    <property name="portnumber" value="externalActivation"/>
-                  </properties>
-                  <graphics>
-                    <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
-                    <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
-                    <background color="183,15,19,255"/>
-                  </graphics>
-                </port>
-              </ports>
-              <parameters>
-                <section name="Parameters">
-                  <parameter name="C" value="delSt"/>
-                  <parameter name="typ" value="&apos;double&apos;"/>
-                  <parameter name="externalActivation" value="0"/>
-                </section>
-              </parameters>
-            </block>
-            <block name="Output" type="regular_out_port">
-              <template name="system/Ports/Output"/>
-              <properties>
-                <property name="inlinable" value="0"/>
-                <property name="masked" value="1"/>
-                <property name="atomic" value="0"/>
-              </properties>
-              <graphics>
-                <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
-                <frame shape="pentagon" visible="1" color="0,0,0,255" cornerradius="0" thickness="1.5"/>
-                <background color="255,255,255,255"/>
-                <position x="341.8630065917969" y="-53.929290771484375"/>
-                <size width="20" height="20"/>
-                <rotate angle="0"/>
-                <texts>
-                  <text name="text1" color="0,0,0,255" clip="1" x="0.35" y="0.5" rotate="1" visible="1" font="Arial,12" align="center">1</text>
-                </texts>
-                <images>
-                  <image name="image1" file="" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
-                </images>
-                <flip value="0">
-                  <images>
-                    <image name="image2" file="" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
-                  </images>
-                </flip>
-              </graphics>
-              <ports>
-                <port name="" type="fixedport">
-                  <properties>
-                    <property name="iotype" value="in"/>
-                    <property name="datatype" value="Explicit"/>
-                    <property name="portnumber" value="1"/>
-                  </properties>
-                  <graphics>
-                    <location position="left"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
-                    <frame shape="triangle" visible="1" color="64,64,64,255" thickness="1.5"/>
-                    <background color="64,64,64,255"/>
-                  </graphics>
-                </port>
-              </ports>
-              <parameters>
-                <section name="Parameters">
-                  <parameter name="portNumber" value="1"/>
-                  <parameter name="insize" value="[-1;-2]"/>
-                  <parameter name="intyp" value="&apos;inherit&apos;"/>
-                </section>
-              </parameters>
-            </block>
-            <link name="" type="Explicit">
-              <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
-              <from block="Constant" port="1" iotype="out"/>
-              <to block="Output" port="1" iotype="in"/>
-              <pen shape="line" color="64,64,64,255" thickness="1.5"/>
-              <points/>
-            </link>
-            <context/>
-            <graphics>
-              <viewport width="800" height="800" topleftx="0" toplefty="0"/>
-              <window width="800" height="800" topleftx="0" toplefty="0"/>
-            </graphics>
-          </diagram>
+          <template name="system/SignalGenerators/Constant"/>
           <properties>
-            <property name="masked" value="0"/>
-            <property name="inlinable" value="1"/>
+            <property name="inlinable" value="0"/>
+            <property name="masked" value="1"/>
             <property name="atomic" value="0"/>
-            <property name="status" value="1"/>
           </properties>
           <graphics>
             <label position="bottom" visible="1" font="Arial,11" color="255,255,255,255"/>
-            <frame shape="rectangle" visible="0" color="0,0,0,255" thickness="1.5"/>
-            <background color="255,255,255,0"/>
-            <position x="79.86335932164991" y="-115.91917325666516"/>
-            <size width="228" height="144"/>
+            <frame shape="rectangle" visible="1" color="0,0,0,255" thickness="1.5"/>
+            <background color="255,255,255,255"/>
+            <position x="221.32559204101562" y="-63.91917325666516"/>
+            <size width="40" height="40"/>
             <rotate angle="0"/>
             <texts>
-              <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center"/>
+              <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center">delSt</text>
             </texts>
             <images>
-              <image name="image1" file="SteeringAngle.png" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
+              <image name="image1" file="" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
             </images>
             <flip value="0">
               <images>
-                <image name="image2" file="SteeringAngle.png" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
+                <image name="image2" file="" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
               </images>
             </flip>
           </graphics>
@@ -9686,17 +9561,31 @@
               </properties>
               <graphics>
                 <location position="right"/>
-                <label visible="1" font="Arial,11" color="255,255,255,255"/>
+                <label visible="1" font="Arial,10" color="255,255,255,255"/>
                 <frame shape="triangle" visible="1" color="64,64,64,255" thickness="1.5"/>
                 <background color="64,64,64,255"/>
               </graphics>
             </port>
+            <port name="" type="variableport">
+              <properties>
+                <property name="iotype" value="in"/>
+                <property name="datatype" value="Activation"/>
+                <property name="portnumber" value="externalActivation"/>
+              </properties>
+              <graphics>
+                <location position="top"/>
+                <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
+                <background color="183,15,19,255"/>
+              </graphics>
+            </port>
           </ports>
-          <parameters title="new block definition">
-            <callback>
-              <pre/>
-              <post/>
-            </callback>
+          <parameters>
+            <section name="Parameters">
+              <parameter name="C" value="delSt"/>
+              <parameter name="typ" value="&apos;double&apos;"/>
+              <parameter name="externalActivation" value="0"/>
+            </section>
           </parameters>
         </block>
         <link name="" type="Activation">
@@ -10107,7 +9996,7 @@
         </link>
         <link name="" type="Explicit">
           <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
-          <from block="ContStateSpace" port="1" iotype="out"/>
+          <from block="Veh. State-Space Model" port="1" iotype="out"/>
           <to block="Demux" port="1" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points/>
@@ -10115,7 +10004,7 @@
         <link name="" type="Explicit">
           <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
           <from block="Steering Angle" port="1" iotype="out"/>
-          <to block="ContStateSpace" port="1" iotype="in"/>
+          <to block="Veh. State-Space Model" port="1" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points/>
         </link>
@@ -10150,14 +10039,6 @@
           <size width="42" height="28"/>
           <rotate angle="0"/>
           <text font="Arial,10" color="0,0,0,255">rear_y</text>
-        </annotation>
-        <annotation name="Annotation_3" type="text">
-          <frame shape="rectangle" visible="0" color="0,0,0,255" cornerradius="0" thickness="1.5"/>
-          <background color="0,0,0,0"/>
-          <position x="341.8669909134468" y="-8.038943306713989"/>
-          <size width="82" height="28"/>
-          <rotate angle="0"/>
-          <text font="Arial,10" color="0,0,0,255">bicycle model</text>
         </annotation>
         <annotation name="Annotation_1_1_1" type="text">
           <frame shape="rectangle" visible="0" color="0,0,0,255" cornerradius="0" thickness="1.5"/>
@@ -10199,14 +10080,6 @@
           <rotate angle="0"/>
           <text font="Arial,10" color="0,0,0,255">This scope shows the position and orientation of the vehicle.</text>
         </annotation>
-        <annotation name="Annotation_2_1" type="text">
-          <frame shape="rectangle" visible="0" color="0,0,0,255" cornerradius="0" thickness="1.5"/>
-          <background color="0,0,0,0"/>
-          <position x="81.894775390625" y="-112.8763313293457"/>
-          <size width="48" height="28"/>
-          <rotate angle="0"/>
-          <text font="Arial,10" color="0,0,0,255">DRAFT</text>
-        </annotation>
         <context/>
         <graphics>
           <viewport width="800" height="800" topleftx="0" toplefty="0"/>
@@ -10223,14 +10096,14 @@
         <label position="bottom" visible="1" font="Arial,11" color="255,255,255,255"/>
         <frame shape="rectangle" visible="0" color="0,0,0,255" thickness="1.5"/>
         <background color="255,255,255,0"/>
-        <position x="459.8115539550781" y="-134.86211109161377"/>
+        <position x="437.8115539550781" y="-133.86404514312744"/>
         <size width="444" height="252"/>
         <rotate angle="0"/>
         <texts>
           <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center"/>
         </texts>
         <images>
-          <image name="image1" file="steering.PNG" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
+          <image name="image1" file="gt-500_turn.png" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
         </images>
         <flip value="0">
           <images>
@@ -10249,10 +10122,10 @@
     <annotation name="Annotation_1" type="text">
       <frame shape="rectangle" visible="0" color="0,0,0,255" cornerradius="0" thickness="1.5"/>
       <background color="0,0,0,0"/>
-      <position x="459.8115539550781" y="-246.677734375"/>
-      <size width="354" height="34"/>
+      <position x="467.8115539550781" y="-245.6796875"/>
+      <size width="356" height="34"/>
       <rotate angle="0"/>
-      <text font="Calibri,18" color="0,0,0,255">Vehicle Dynamics – Lateral Animation #1</text>
+      <text font="Calibri,18" color="0,0,0,255">Vehicle Dynamics – Lateral Simulation #1</text>
     </annotation>
     <annotation name="Annotation" type="text">
       <frame shape="rectangle" visible="0" color="0,0,0,255" cornerradius="0" thickness="1.5"/>
@@ -10261,14 +10134,6 @@
       <size width="402" height="64"/>
       <rotate angle="0"/>
       <text font="Arial,10" color="0,0,0,255">This model calculates the front and rear positions of the vehicle according &#xA;to the Ackermann angle and visualizes it as a 2D animation.&#xA;&#xA;Refer Chapter 2.3 in the E-Book for detailed explanation of this model.</text>
-    </annotation>
-    <annotation name="Annotation_2" type="text">
-      <frame shape="rectangle" visible="0" color="0,0,0,255" cornerradius="0" thickness="1.5"/>
-      <background color="0,0,0,0"/>
-      <position x="459.8115539550781" y="-122.92704010009766"/>
-      <size width="48" height="28"/>
-      <rotate angle="0"/>
-      <text font="Arial,10" color="0,0,0,255">DRAFT</text>
     </annotation>
     <context/>
     <graphics>
