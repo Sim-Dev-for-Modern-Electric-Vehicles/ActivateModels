@@ -6,7 +6,7 @@
       <property name="creator" value="Serhan"/>
       <property name="creationdate" value="09/03/21 08:36:18"/>
       <property name="revision" value="0"/>
-      <property name="lastmodifieddate" value="05/20/22 08:55:28"/>
+      <property name="lastmodifieddate" value="05/27/22 08:24:08"/>
       <property name="comments" value=""/>
     </properties>
   </edition>
@@ -27,8 +27,8 @@
             <label position="bottom" visible="1" font="Arial,11" color="255,255,255,255"/>
             <frame shape="rectangle" visible="1" color="0,0,0,255" thickness="1.5"/>
             <background color="255,255,255,255"/>
-            <position x="2266.339027404753" y="457.14457911249724"/>
-            <size width="84" height="228"/>
+            <position x="2182.644691467268" y="457.14457911177993"/>
+            <size width="84" height="227.99999999999994"/>
             <rotate angle="0"/>
             <texts>
               <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center"/>
@@ -253,7 +253,7 @@
             <label position="bottom" visible="1" font="Arial,11" color="255,255,255,255"/>
             <frame shape="rectangle" visible="1" color="0,0,0,255" thickness="1.5"/>
             <background color="255,255,255,255"/>
-            <position x="1873.5815200805782" y="361.4500638873849"/>
+            <position x="1792.5582046508907" y="380.14775675847864"/>
             <size width="96" height="72"/>
             <rotate angle="0"/>
             <texts>
@@ -33234,8 +33234,8 @@
             <label position="bottom" visible="1" font="Arial,11" color="255,255,255,255"/>
             <frame shape="rectangle" visible="0" color="0,0,0,255" thickness="1.5"/>
             <background color="255,255,255,0"/>
-            <position x="1888.125709532976" y="456.5612457791018"/>
-            <size width="336" height="204"/>
+            <position x="1804.4313735954913" y="456.5612457783845"/>
+            <size width="335.9999999999998" height="204.00000000000006"/>
             <rotate angle="0"/>
             <texts>
               <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center"/>
@@ -33803,7 +33803,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -33879,7 +33879,7 @@
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
                     <size width="4.5" height="4.499999999999999"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -34792,7 +34792,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -37273,7 +37273,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -37348,7 +37348,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -37605,7 +37605,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -38761,7 +38761,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -40696,7 +40696,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -41046,7 +41046,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -43986,7 +43986,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -46959,7 +46959,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -47083,7 +47083,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -47302,7 +47302,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -47425,7 +47425,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -47501,7 +47501,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -47565,7 +47565,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -47641,7 +47641,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -47948,7 +47948,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -48024,7 +48024,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -48100,7 +48100,7 @@
                   </properties>
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -48163,7 +48163,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -48409,7 +48409,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -48746,7 +48746,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -48908,7 +48908,7 @@
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
                     <size width="4.5" height="4.499999999999999"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -48985,7 +48985,7 @@
                   <graphics>
                     <location position="top" x="0.5" y="0.2"/>
                     <size width="4.5" height="4.499999999999999"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -49048,7 +49048,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -49281,7 +49281,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -49429,7 +49429,7 @@
                   </properties>
                   <graphics>
                     <location position="top"/>
-                    <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                    <label visible="1" font="Arial,11" color="255,255,255,255"/>
                     <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
                     <background color="183,15,19,255"/>
                   </graphics>
@@ -50562,103 +50562,6 @@
             </callback>
           </parameters>
         </block>
-        <block name="Traction_Front" type="block">
-          <template name="system/SignalGenerators/SignalGenerator"/>
-          <properties>
-            <property name="inlinable" value="0"/>
-            <property name="masked" value="1"/>
-            <property name="atomic" value="0"/>
-          </properties>
-          <graphics>
-            <label position="bottom" visible="1" font="Arial,11" color="255,255,255,255"/>
-            <frame shape="rectangle" visible="1" color="0,0,0,255" thickness="1.5"/>
-            <background color="255,255,255,255"/>
-            <position x="1106.7230224609368" y="263.8943591344921"/>
-            <size width="80" height="40"/>
-            <rotate angle="0"/>
-            <texts>
-              <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center">Signal&#xA;generator</text>
-            </texts>
-            <images>
-              <image name="image1" file="&quot;&quot;" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
-            </images>
-            <flip value="0">
-              <images>
-                <image name="image2" file="" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
-              </images>
-            </flip>
-          </graphics>
-          <ports>
-            <port name="s" type="fixedport">
-              <properties>
-                <property name="iotype" value="out"/>
-                <property name="datatype" value="Explicit"/>
-                <property name="portnumber" value="1"/>
-              </properties>
-              <graphics>
-                <location position="right"/>
-                <label visible="1" font="Arial,10" color="255,255,255,255"/>
-                <frame shape="triangle" visible="1" color="64,64,64,255" thickness="1.5"/>
-                <background color="64,64,64,255"/>
-              </graphics>
-            </port>
-            <port name="&quot;s`&quot; &quot;s``&quot;" type="variableport">
-              <properties>
-                <property name="iotype" value="out"/>
-                <property name="datatype" value="Explicit"/>
-                <property name="portnumber" value="firstder+firstder*secondder"/>
-              </properties>
-              <graphics>
-                <location position="right"/>
-                <label visible="1" font="Arial,10" color="255,255,255,255"/>
-                <frame shape="triangle" visible="1" color="64,64,64,255" thickness="1.5"/>
-                <background color="64,64,64,255"/>
-              </graphics>
-            </port>
-            <port name="" type="variableport">
-              <properties>
-                <property name="iotype" value="in"/>
-                <property name="datatype" value="Activation"/>
-                <property name="portnumber" value="externalActivation"/>
-              </properties>
-              <graphics>
-                <location position="top"/>
-                <label visible="1" font="Arial,10" color="255,255,255,255"/>
-                <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
-                <background color="183,15,19,255"/>
-              </graphics>
-            </port>
-            <port name="" type="variableport">
-              <properties>
-                <property name="iotype" value="out"/>
-                <property name="datatype" value="Activation"/>
-                <property name="portnumber" value="outevent"/>
-              </properties>
-              <graphics>
-                <location position="bottom"/>
-                <label visible="1" font="Arial,10" color="255,255,255,255"/>
-                <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
-                <background color="183,15,19,255"/>
-              </graphics>
-            </port>
-          </ports>
-          <parameters>
-            <section name="Parameters">
-              <parameter name="xx" value="[0.0, 5.0, 10.0, 15.0, 50.0]"/>
-              <parameter name="yy" value="[0.0, 1000.0, 1000.0, 0.0, 0.0]"/>
-              <parameter name="typ" value="&apos;double&apos;"/>
-              <parameter name="outevent" value="0"/>
-              <parameter name="firstder" value="0"/>
-              <parameter name="secondder" value="0"/>
-              <parameter name="externalActivation" value="0"/>
-            </section>
-            <section name="Advanced">
-              <parameter name="Method" value="&apos;Linear&apos;"/>
-              <parameter name="Leftside" value="&apos;Zero&apos;"/>
-              <parameter name="Rightside" value="&apos;Hold&apos;"/>
-            </section>
-          </parameters>
-        </block>
         <block name="MathExpression" type="block">
           <template name="system/MathOperations/MathExpression"/>
           <properties>
@@ -50670,8 +50573,8 @@
             <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
             <frame shape="rectangle" visible="1" color="0,0,0,255" thickness="1.5"/>
             <background color="255,255,255,255"/>
-            <position x="1747.6728515625" y="657.6431884765625"/>
-            <size width="72" height="36"/>
+            <position x="1714.2138671874998" y="655.1831126411461"/>
+            <size width="48" height="36"/>
             <rotate angle="0"/>
             <texts>
               <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center">sin(u1)</text>
@@ -50844,7 +50747,7 @@
             <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
             <frame shape="ellipse" visible="1" color="0,0,0,255" thickness="1.5"/>
             <background color="64,64,64,255"/>
-            <position x="1853.899280547738" y="675.6431884765625"/>
+            <position x="1772.2138671874998" y="673.1831126411461"/>
             <size width="0" height="0"/>
             <rotate angle="0"/>
             <texts>
@@ -50918,13 +50821,110 @@
             </section>
           </parameters>
         </block>
+        <block name="SignalGenerator" type="block">
+          <template name="system/SignalGenerators/SignalGenerator"/>
+          <properties>
+            <property name="inlinable" value="0"/>
+            <property name="masked" value="1"/>
+            <property name="atomic" value="0"/>
+          </properties>
+          <graphics>
+            <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
+            <frame shape="rectangle" visible="1" color="0,0,0,255" thickness="1.5"/>
+            <background color="255,255,255,255"/>
+            <position x="1110.4294891357417" y="263.8943591344921"/>
+            <size width="80" height="40"/>
+            <rotate angle="0"/>
+            <texts>
+              <text name="text1" color="0,0,0,255" clip="1" x="0.5" y="0.5" rotate="1" visible="1" font="Arial,12" align="center">Signal&#xA;generator</text>
+            </texts>
+            <images>
+              <image name="image1" file="&quot;&quot;" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
+            </images>
+            <flip value="0">
+              <images>
+                <image name="image2" file="" visible="1" alpha="255" aspectratio="1" x="0" y="0" width="1" height="1" clip="1" rotate="1"/>
+              </images>
+            </flip>
+          </graphics>
+          <ports>
+            <port name="s" type="fixedport">
+              <properties>
+                <property name="iotype" value="out"/>
+                <property name="datatype" value="Explicit"/>
+                <property name="portnumber" value="1"/>
+              </properties>
+              <graphics>
+                <location position="right"/>
+                <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                <frame shape="triangle" visible="1" color="64,64,64,255" thickness="1.5"/>
+                <background color="64,64,64,255"/>
+              </graphics>
+            </port>
+            <port name="&quot;s`&quot; &quot;s``&quot;" type="variableport">
+              <properties>
+                <property name="iotype" value="out"/>
+                <property name="datatype" value="Explicit"/>
+                <property name="portnumber" value="firstder+firstder*secondder"/>
+              </properties>
+              <graphics>
+                <location position="right"/>
+                <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                <frame shape="triangle" visible="1" color="64,64,64,255" thickness="1.5"/>
+                <background color="64,64,64,255"/>
+              </graphics>
+            </port>
+            <port name="" type="variableport">
+              <properties>
+                <property name="iotype" value="in"/>
+                <property name="datatype" value="Activation"/>
+                <property name="portnumber" value="externalActivation"/>
+              </properties>
+              <graphics>
+                <location position="top"/>
+                <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
+                <background color="183,15,19,255"/>
+              </graphics>
+            </port>
+            <port name="" type="variableport">
+              <properties>
+                <property name="iotype" value="out"/>
+                <property name="datatype" value="Activation"/>
+                <property name="portnumber" value="outevent"/>
+              </properties>
+              <graphics>
+                <location position="bottom"/>
+                <label visible="1" font="Arial,10" color="255,255,255,255"/>
+                <frame shape="triangle" visible="1" color="183,15,19,255" thickness="1.5"/>
+                <background color="183,15,19,255"/>
+              </graphics>
+            </port>
+          </ports>
+          <parameters>
+            <section name="Parameters">
+              <parameter name="xx" value="[0,10,20,50,60,70,75,100]"/>
+              <parameter name="yy" value="[0,2000,2000,0,0,-2500,0,0]"/>
+              <parameter name="typ" value="&apos;double&apos;"/>
+              <parameter name="outevent" value="0"/>
+              <parameter name="firstder" value="0"/>
+              <parameter name="secondder" value="0"/>
+              <parameter name="externalActivation" value="0"/>
+            </section>
+            <section name="Advanced">
+              <parameter name="Method" value="&apos;Linear&apos;"/>
+              <parameter name="Leftside" value="&apos;Zero&apos;"/>
+              <parameter name="Rightside" value="&apos;Hold&apos;"/>
+            </section>
+          </parameters>
+        </block>
         <link name="" type="Explicit">
           <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
           <from block="Vertical Submodel" port="1" iotype="out"/>
           <to block="Vertical Output" port="1" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="2234.125709532978" y="469.8112457791598"/>
+            <point x="2150.431373595493" y="469.81124577844247"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -50933,8 +50933,8 @@
           <to block="Vertical Output" port="2" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="2250.1995849608884" y="494.81124577911106"/>
-            <point x="2250.1995849608884" y="495.14457911249724"/>
+            <point x="2166.505249023404" y="494.81124577839375"/>
+            <point x="2166.505249023404" y="495.14457911177993"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -50950,7 +50950,7 @@
           <to block="Block_3" port="2" iotype="out"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="1768.9014663617056" y="397.45006388739927"/>
+            <point x="1768.9014663617063" y="416.14775675848387"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -51030,19 +51030,12 @@
         </link>
         <link name="" type="Explicit">
           <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
-          <from block="Traction_Front" port="1" iotype="out"/>
-          <to block="Longitudinal Submodel" port="1" iotype="in"/>
-          <pen shape="line" color="64,64,64,255" thickness="1.5"/>
-          <points/>
-        </link>
-        <link name="" type="Explicit">
-          <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
           <from block="Vertical Submodel" port="7" iotype="out"/>
           <to block="Vertical Output" port="7" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="2245.2323684688645" y="622.3112457791018"/>
-            <point x="2245.2323684688645" y="621.811245779164"/>
+            <point x="2161.53803253138" y="622.3112457783845"/>
+            <point x="2161.53803253138" y="621.8112457784466"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -51051,8 +51044,8 @@
           <to block="Vertical Output" port="8" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="2245.2323684688645" y="647.8112457791018"/>
-            <point x="2245.2323684688645" y="647.1445791124972"/>
+            <point x="2161.53803253138" y="647.8112457783845"/>
+            <point x="2161.53803253138" y="647.1445791117799"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -51061,8 +51054,8 @@
           <to block="Vertical Output" port="6" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="2245.2323684688645" y="596.8112457791018"/>
-            <point x="2245.2323684688645" y="596.4779124458306"/>
+            <point x="2161.53803253138" y="596.8112457783845"/>
+            <point x="2161.53803253138" y="596.4779124451134"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -51071,8 +51064,8 @@
           <to block="Vertical Output" port="5" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="2245.2323684688645" y="571.3112457791018"/>
-            <point x="2245.2323684688645" y="571.1445791124972"/>
+            <point x="2161.53803253138" y="571.3112457783845"/>
+            <point x="2161.53803253138" y="571.1445791117799"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -51081,8 +51074,8 @@
           <to block="Vertical Output" port="3" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="2245.2323684688645" y="520.3112457791018"/>
-            <point x="2245.2323684688645" y="520.4779124458306"/>
+            <point x="2161.53803253138" y="520.3112457783845"/>
+            <point x="2161.53803253138" y="520.4779124451134"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -51098,7 +51091,7 @@
           <to block="Split" port="2" iotype="out"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="1698.1809082031252" y="675.6431884765625"/>
+            <point x="1698.1809082031255" y="673.1831126411628"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -51121,7 +51114,7 @@
           <to block="Block_1" port="2" iotype="out"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="1853.899280547738" y="672.4779124458306"/>
+            <point x="1772.2138671874993" y="672.4779124458306"/>
           </points>
         </link>
         <link name="" type="Explicit">
@@ -51130,8 +51123,15 @@
           <to block="Vertical Submodel" port="4" iotype="in"/>
           <pen shape="line" color="64,64,64,255" thickness="1.5"/>
           <points>
-            <point x="1853.899280547738" y="635.0612457791018"/>
+            <point x="1772.2138671875039" y="635.0612457790984"/>
           </points>
+        </link>
+        <link name="" type="Explicit">
+          <label position="bottom" visible="0" font="Arial,11" color="255,255,255,255"/>
+          <from block="SignalGenerator" port="1" iotype="out"/>
+          <to block="Longitudinal Submodel" port="1" iotype="in"/>
+          <pen shape="line" color="64,64,64,255" thickness="1.5"/>
+          <points/>
         </link>
         <context/>
         <graphics>
@@ -51197,14 +51197,14 @@
   <simulation>
     <properties>
       <property name="InitialTime" value="0"/>
-      <property name="FinalTime" value="50"/>
+      <property name="FinalTime" value="100"/>
       <property name="RealTimeScale" value="0"/>
       <property name="AbsoluteErrorTolerance" value="0.000001"/>
       <property name="RelativeErrorTolerance" value="0.000001"/>
       <property name="MaxTimeInterval" value="-1"/>
       <property name="TimeTolerance" value="0"/>
       <property name="Solver" value="euler_imp"/>
-      <property name="MaxStepSize" value="0.3"/>
+      <property name="MaxStepSize" value="-1"/>
       <property name="InitialStepSize" value="-1"/>
       <property name="MinimalStepSize" value="-1"/>
       <property name="ZeroCrossingThreshold" value="-1"/>
