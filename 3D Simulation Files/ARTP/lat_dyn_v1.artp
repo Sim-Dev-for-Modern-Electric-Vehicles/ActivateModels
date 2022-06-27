@@ -13,11 +13,11 @@
     "dt_fixed": 0.004999999888241291,
     "limit_cpu_timer_tick": 0.15000000596046449,
     "filename_FMU": "..\\FMU\\sb_lat_dyn_v1.fmu",
-    "filename_level": "..\\RTV_0.5.7\\WindowsNoEditor\\AltairRTV\\Content\\Examples\\scenes\\scene_proving_ground.pak",
+    "filename_level": "..\\RTV_0.6.1\\WindowsNoEditor\\AltairRTV\\Content\\Examples\\scenes\\scene_proving_ground.pak",
     "filename_assets": "",
     "filename_log": "",
     "vars_for_logging": [],
-    "filename_HUD": "..\\RTV_0.5.7\\WindowsNoEditor\\AltairRTV\\Content\\Examples\\HUDs\\hud_car.html",
+    "filename_HUD": "..\\RTV_0.6.1\\WindowsNoEditor\\AltairRTV\\Content\\Examples\\HUDs\\hud_car.html",
     "vars_for_HUD": [
         {
             "fmuName": "yawAngle",
@@ -36,15 +36,18 @@
             "username": "torque1"
         }
     ],
-    "show_HUD": true,
+    "show_HUD": false,
     "vars_for_input_key": [
         {
             "fmuName": "in_yaw",
             "username": "myInputKey",
             "key": 9,
+            "key2": 0,
             "mode": 0,
             "rate_in": -1.0,
             "rate_out": 0.0,
+            "rate_center": 0.10000000149011612,
+            "center": 0.0,
             "clamp_min": -10.0,
             "clamp_max": 10.0,
             "set_value": 0.0,
@@ -60,9 +63,12 @@
             "fmuName": "in_yaw",
             "username": "myInputKey",
             "key": 20,
+            "key2": 0,
             "mode": 0,
             "rate_in": 1.0,
             "rate_out": 0.0,
+            "rate_center": 0.10000000149011612,
+            "center": 0.0,
             "clamp_min": -10.0,
             "clamp_max": 10.0,
             "set_value": 0.0,
@@ -105,49 +111,120 @@
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
+        }
+    ],
+    "rawinput_devices": [
+        {
+            "devicename": "raw_input_default",
+            "VendorID": 0,
+            "DeviceID": 1,
+            "vars_for_rawinput_axis": [
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                }
+            ]
         }
     ],
     "vars_for_easyplot": [
         {
-            "mode": 0,
-            "fmuName": "",
-            "username": "my_plot",
-            "y_min": -1.0,
-            "y_max": 1.0,
-            "x_min": 8.019999504089356,
-            "x_max": 11.019999504089356,
+            "mode": 2,
+            "fmuName": "yawAngle",
+            "username": "Yaw Angle",
+            "y_min": 0.0,
+            "y_max": 4.0,
+            "x_min": 8.960000038146973,
+            "x_max": 11.960000038146973,
             "fmuName_x": "",
-            "pos_x": -1,
-            "pos_y": -1,
+            "pos_x": 10,
+            "pos_y": 10,
             "size_x": 600,
             "size_y": 200,
-            "autostack": true,
+            "autostack": false,
             "grid_x": true,
             "grid_y": true,
             "ticks_x": true,
@@ -155,11 +232,11 @@
             "x_span_oscill": 3.0
         }
     ],
-    "show_plots": false,
+    "show_plots": true,
     "visual_objects": [
         {
             "node_name": "3D.body.[chassis]",
-            "asset_path_name": "D:\\2021 ACROME\\August\\Vehicle\\Small3D\\chassis.fbx",
+            "asset_path_name": "C:\\3D Simulation Files\\3DModels\\chassis.fbx",
             "asset_translation_x": 0.0,
             "asset_translation_y": 0.0,
             "asset_translation_z": 0.0,
@@ -173,7 +250,7 @@
         },
         {
             "node_name": "3D.body.[wheel_bl]",
-            "asset_path_name": "D:\\2021 ACROME\\August\\Vehicle\\Small3D\\wheel_bl.fbx",
+            "asset_path_name": "C:\\3D Simulation Files\\3DModels\\wheel_bl.fbx",
             "asset_translation_x": 0.0,
             "asset_translation_y": 0.0,
             "asset_translation_z": -0.0,
@@ -187,7 +264,7 @@
         },
         {
             "node_name": "3D.body.[wheel_br]",
-            "asset_path_name": "D:\\2021 ACROME\\August\\Vehicle\\Small3D\\wheel_br.fbx",
+            "asset_path_name": "C:\\3D Simulation Files\\3DModels\\wheel_br.fbx",
             "asset_translation_x": 0.0,
             "asset_translation_y": 0.0,
             "asset_translation_z": 0.0,
@@ -201,7 +278,7 @@
         },
         {
             "node_name": "3D.body.[wheel_fl]",
-            "asset_path_name": "D:\\2021 ACROME\\August\\Vehicle\\Small3D\\wheel_fl.fbx",
+            "asset_path_name": "C:\\3D Simulation Files\\3DModels\\wheel_fl.fbx",
             "asset_translation_x": 0.0,
             "asset_translation_y": 0.0,
             "asset_translation_z": 0.0,
@@ -215,7 +292,7 @@
         },
         {
             "node_name": "3D.body.[wheel_fr]",
-            "asset_path_name": "D:\\2021 ACROME\\August\\Vehicle\\Small3D\\wheel_fr.fbx",
+            "asset_path_name": "C:\\3D Simulation Files\\3DModels\\wheel_fr.fbx",
             "asset_translation_x": 0.0,
             "asset_translation_y": 0.0,
             "asset_translation_z": 0.0,
@@ -256,5 +333,28 @@
         "atmosphere_mie_absorption_scale": 0.0004400000034365803,
         "atmosphere_mie_exponential_distribution": 1.2000000476837159
     },
-    "default_mesh_directory": "..\\Small3D\\"
+    "default_mesh_directory": "..\\3DModels\\",
+    "camera_navigation": {
+        "camera_navigation_translation_x": 0.0,
+        "camera_navigation_translation_y": 2.0,
+        "camera_navigation_translation_z": 1.100000023841858,
+        "camera_navigation_rotation_Roll": 0.0,
+        "camera_navigation_rotation_Pitch": 0.0,
+        "camera_navigation_rotation_Yaw": -89.99974822998047,
+        "camera_navigation_fov_angle": 90.0,
+        "camera_navigation_focus": 2.0,
+        "camera_navigation_fstop": 4.0
+    },
+    "camera_orbit": {
+        "camera_orbit_asset": "3D.body.[chassis]",
+        "camera_orbit_translation_x": -0.0004025268426630646,
+        "camera_orbit_translation_y": 1.9995695352554322,
+        "camera_orbit_translation_z": -1.9991952180862427,
+        "camera_orbit_rotation_Roll": 179.99989318847657,
+        "camera_orbit_rotation_Pitch": 10.32403564453125,
+        "camera_orbit_rotation_Yaw": -90.55393981933594,
+        "camera_orbit_fov_angle": 90.0,
+        "camera_orbit_distance": 4.0,
+        "camera_orbit_fstop": 4.0
+    }
 }

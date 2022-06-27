@@ -51,43 +51,114 @@
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
         },
         {
             "fmuName": "",
             "multiplier": 1.0,
+            "offset": 0.0,
             "value": 0.0
+        }
+    ],
+    "rawinput_devices": [
+        {
+            "devicename": "raw_input_default",
+            "VendorID": 0,
+            "DeviceID": 1,
+            "vars_for_rawinput_axis": [
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                },
+                {
+                    "fmuName": "",
+                    "multiplier": 1.0,
+                    "offset": 0.0,
+                    "value": 0.0,
+                    "negative_wrap": false
+                }
+            ]
         }
     ],
     "vars_for_easyplot": [
         {
-            "mode": 0,
+            "mode": 2,
             "fmuName": "velocity",
             "username": "Velocity",
-            "y_min": -1.0,
-            "y_max": 1.0,
-            "x_min": 117.64999389648438,
-            "x_max": 120.64999389648438,
+            "y_min": -6.0,
+            "y_max": 6.0,
+            "x_min": 29.795000076293947,
+            "x_max": 32.79499816894531,
             "fmuName_x": "",
             "pos_x": 10,
             "pos_y": 10,
@@ -101,16 +172,16 @@
             "x_span_oscill": 3.0
         },
         {
-            "mode": 0,
+            "mode": 2,
             "fmuName": "accel",
             "username": "Angle",
             "y_min": -1.0,
             "y_max": 1.0,
-            "x_min": 117.64999389648438,
-            "x_max": 120.64999389648438,
+            "x_min": 43.53999710083008,
+            "x_max": 46.53999710083008,
             "fmuName_x": "",
-            "pos_x": 10,
-            "pos_y": 300,
+            "pos_x": 250,
+            "pos_y": 10,
             "size_x": 300,
             "size_y": 200,
             "autostack": false,
@@ -222,5 +293,28 @@
         "atmosphere_mie_absorption_scale": 0.0004400000034365803,
         "atmosphere_mie_exponential_distribution": 1.2000000476837159
     },
-    "default_mesh_directory": "..\\3DModels\\"
+    "default_mesh_directory": "..\\3DModels\\",
+    "camera_navigation": {
+        "camera_navigation_translation_x": 0.0,
+        "camera_navigation_translation_y": 2.0,
+        "camera_navigation_translation_z": 1.100000023841858,
+        "camera_navigation_rotation_Roll": 0.0,
+        "camera_navigation_rotation_Pitch": 0.0,
+        "camera_navigation_rotation_Yaw": -89.99974822998047,
+        "camera_navigation_fov_angle": 90.0,
+        "camera_navigation_focus": 2.0,
+        "camera_navigation_fstop": 4.0
+    },
+    "camera_orbit": {
+        "camera_orbit_asset": "3D.body.[chassis]",
+        "camera_orbit_translation_x": -4.979844093322754,
+        "camera_orbit_translation_y": 0.02191619761288166,
+        "camera_orbit_translation_z": -0.992408037185669,
+        "camera_orbit_rotation_Roll": 179.99989318847657,
+        "camera_orbit_rotation_Pitch": -1.2021678686141968,
+        "camera_orbit_rotation_Yaw": -0.7089685201644898,
+        "camera_orbit_fov_angle": 90.0,
+        "camera_orbit_distance": 2.0,
+        "camera_orbit_fstop": 4.0
+    }
 }
